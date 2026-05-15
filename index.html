@@ -32,7 +32,7 @@ async function checkTimestamp() {
 
   try {
     // Загружаем readme.md
-    const response = await fetch("/timestamp/readme.md");
+    const response = await fetch("/readme.md");
     const text = await response.text();
 
     // Ищем строку:
